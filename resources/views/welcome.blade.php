@@ -335,14 +335,14 @@
 
     <section id="follow" class="bg-white dark:bg-gray-900">
         <div class="gap-16 items-center py-8 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-            <div class="font-light text-gray-600 sm:text-lg dark:text-gray-400">
+            <div class="px-4 font-light text-gray-600 sm:text-lg dark:text-gray-400">
                 <h2 class="mb-4 text-4xl tracking-tight font-bold text-gray-900 dark:text-white">Ikuti Kami
                 </h2>
                 <p class="mb-4">
                     Follow sosial media kami untuk mendapatkan update terbaru.
                 </p>
                 <div class="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                    <a href="#"
+                    <a href="https://www.instagram.com/hmif.uisi/"
                         class="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white rounded-lg bg-gradient-to-br from-purple-800 via-rose-600 to-yellow-400 focus:ring-4 hover:shadow-rose-500 shadow-md focus:ring-blue-300 dark:focus:ring-blue-900 transition-all duration-500">
                         Instagram
                     </a>
@@ -352,7 +352,7 @@
                     </a>
                 </div>
             </div>
-            <div class="grid grid-cols-2 gap-4 mt-8">
+            <div class="grid grid-cols-2 gap-4 mt-8 px-4">
                 <img class="w-full rounded-lg" src="{{ asset('img/ig.jpg') }}" alt="office content 1">
                 <img class="mt-4 w-full lg:mt-10 rounded-lg" src="{{ asset('img/tk.jpg') }}" alt="office content 2">
             </div>
@@ -443,11 +443,11 @@
                             </h2>
                             <ul class="text-gray-600 dark:text-gray-400">
                                 <li class="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite"
+                                    <a href="https://www.instagram.com/hmif.uisi/"
                                         class="hover:underline ">Instagram</a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Tiktok</a>
+                                    <a href="" class="hover:underline">Tiktok</a>
                                 </li>
                             </ul>
                         </div>
