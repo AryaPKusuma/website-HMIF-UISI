@@ -11,7 +11,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="dark">
+<body class="latte">
 
     <header>
         <nav
@@ -24,7 +24,7 @@
                 </a>
                 <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
                     <button type="button"
-                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        class="hidden sm:block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                         Contact Us
                     </button>
                     <button data-collapse-toggle="navbar-sticky" type="button"
@@ -70,8 +70,6 @@
             </div>
         </nav>
     </header>
-
-    {{-- https://source.unsplash.com/random/ --}}
 
     <section
         class="mt-16 sm:h-screen py-16 flex flex-1 items-center bg-center bg-cover bg-blend-overlay bg-fixed bg-black/50"
@@ -412,6 +410,12 @@
 
         </div>
 
+    </section>
+
+    <section>
+        <div class="h-screen bg-ctp-base flex justify-center mx-auto">
+            <h1 class="text-ctp-blue text-center ">CATPPUCCIN</h1>
+        </div>
     </section>
 
     <footer>
